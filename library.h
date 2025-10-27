@@ -2,6 +2,6 @@
 #define DAVINCIGL_LIBRARY_H
 
 void makeWindow(void);
-int closeWindow(windowName);
+__declspec(dllexport) void closeWindow(const char* windowName);
 
 #endif // DAVINCIGL_LIBRARY_H
